@@ -1,0 +1,22 @@
+:root {
+  --color-primary: #f9ed69;
+  --color-secondary: #f08a5d;
+  --color-text: #1e1f26;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: linear-gradient(to right bottom, var(--color-primary), var(--color-secondary));
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  color: var(--color-text);
+}
